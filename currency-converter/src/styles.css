@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #78b0e5;
+}
+
+/* Card layout */
+.currency-card {
+  background-color: #b1d8e3;
+  border-radius: 16px;
+  padding: 25px 30px;
+  max-width: 480px;
+  margin: 50px auto;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* Title */
+.currency-title {
+  color: #1f2937;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Input */
+.currency-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Selects */
+.currency-select-group {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+  flex-direction: row;
+}
+
+.currency-select {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Button */
+.currency-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.currency-button:hover {
+  background-color: #0056b3;
+}
+
+/* Result box */
+.currency-result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #059669;
+  font-weight: 600;
+  text-align: center;
+}
+
+.currency-source {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .currency-card {
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .currency-select-group {
+    flex-direction: column;
+  }
+
+  .currency-button {
+    font-size: 15px;
+  }
+
+  .currency-result {
+    font-size: 16px;
+  }
+}
