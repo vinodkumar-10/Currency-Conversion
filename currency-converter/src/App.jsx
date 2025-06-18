@@ -1,5 +1,3 @@
-
-// src/App.jsx
 import React from 'react';
 import CurrencyForm from './components/CurrencyForm';
 import './styles.css';
